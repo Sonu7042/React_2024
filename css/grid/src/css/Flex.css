@@ -1,0 +1,65 @@
+#flex-item-1{
+    /* flex: 3, 2, 250px; */
+    /* flex-basis: 200px; */
+    /* flex-grow: 2; */
+    background-color: greenyellow;
+}
+#flex-item-2{
+    /* flex-grow: 3; */
+  
+    background-color:red
+}
+#flex-item-3{
+    /* order: 6; */
+    background-color:blue;
+}
+#flex-item-4{
+    /* flex-shrink: 2; */
+    background-color: pink;
+}
+#flex-item-5{
+    /* align-self: center; */
+    /* align-self: flex-end; */
+    /* align-self: flex-start; */
+    /* align-self: stretch; */
+    background-color:yellow;
+}
+#flex-item-6{
+    background-color:rgb(181, 14, 236);
+}
+
+
+.flex-item{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.flex-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* align-content:center; */
+    /* align-content:flex-end; */
+    /* align-content:flex-start; */
+    /* align-content: stretch; */
+    /* align-content:space-around; */
+    /* align-content:space-between; */
+    flex-flow: row wrap;
+
+
+
+
+}
